@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dimensions related to the application -->
+
+    <!-- Dimensions for Card views -->
+    <dimen name="card_view_corner_radius">16dp</dimen>
+
+    <!-- Dimensions for margins -->
+    <dimen name="margin_small">4dp</dimen>
+    <dimen name="margin_medium">8dp</dimen>
+    <dimen name="margin_max">16dp</dimen>
+
+    <!--Dimensions for padding -->
+    <dimen name="padding_small">4dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_max">16dp</dimen>
+
+    <!-- Dimensions for text -->
+    <dimen name="secondary_text_size">15sp</dimen>
+    <dimen name="text_normal_size">17sp</dimen>
+    <dimen name="title_size">24sp</dimen>
+    <dimen name="list_title_size">17sp</dimen>
+    <dimen name="tertiary_text_size">13sp</dimen>
+
+</resources>

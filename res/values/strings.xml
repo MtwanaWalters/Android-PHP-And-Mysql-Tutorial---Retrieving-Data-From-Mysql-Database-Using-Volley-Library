@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">SampleLoginApp</string>
+
+    <!-- String resources related to log in -->
+    <string name="sign_in_title">Sign In</string>
+    <string name="email_prompt">Email Address</string>
+    <string name="password_prompt">Password</string>
+    <string name="forgot_password_title">Can\'t sign in? <font color='#ff1744'>forgot password?</font></string>
+    <string name="sign_up_link">Don\'t have an account? <font color='#ff1744'>create</font></string>
+
+    <!-- String resources related to sign up -->
+    <string name="sign_up_title">Sign Up</string>
+    <string name="create_account_title">Create your Account</string>
+
+    <string name="first_name_prompt">First Name</string>
+    <string name="last_name_prompt">Last Name</string>
+    <string name="email_address_prompt">Email Address</string>
+    <string name="id_number_prompt">ID Number</string>
+    <string name="phone_number_prompt">Phone Number</string>
+    <string name="confirm_password_prompt">Confirm Password</string>
+
+    <!-- String resources related to menus -->
+    <string name="settings_title">Settings</string>
+    <string name="notifications_title">Notifications</string>
+
+    <!-- Machine IP Address -->
+    <string name="machine_ip_address">192.168.100.16</string>
+
+</resources>

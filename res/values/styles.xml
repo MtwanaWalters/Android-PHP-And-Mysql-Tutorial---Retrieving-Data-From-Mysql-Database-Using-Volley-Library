@@ -1,0 +1,60 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:navigationBarColor" tools:targetApi="21"  >@color/colorWhite</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">true</item>
+    </style>
+
+    <!-- Styles related to text -->
+    <style name="DescriptiveRegularTextTheme">
+        <item name="android:textSize">@dimen/secondary_text_size</item>
+        <item name="android:textColor">#ff808080</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="TertiaryTextTheme">
+        <item name="android:textSize">@dimen/tertiary_text_size</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="SecondaryTextTheme">
+        <item name="android:textSize">@dimen/secondary_text_size</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+
+    <style name="TitleTextTheme">
+        <item name="android:textSize">@dimen/title_size</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+
+    <style name="BoldTitleTextTheme">
+        <item name="android:textSize">@dimen/title_size</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ListTitleTheme">
+        <item name="android:textSize">@dimen/list_title_size</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <!-- Style related to Sign in and Sign up activities -->
+    <style name="LogInTheme" parent="AppTheme">
+        <item name="android:statusBarColor" tools:targetApi="21">@color/colorWhite</item>
+        <item name="android:navigationBarColor" tools:targetApi="21"  >@color/colorWhite</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="23">true</item>
+    </style>
+
+
+</resources>
